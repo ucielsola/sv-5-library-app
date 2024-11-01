@@ -38,7 +38,7 @@
 		onChange={booksState.searchBooks}
 	/>
 
-	<div class="flex h-full w-full flex-col gap-2 overflow-y-auto">
+	<div class="flex h-full w-full flex-col gap-2 overflow-y-auto pb-16">
 		{#if booksState.loading && booksState.searchQuery && !isLoadingMore}
 			<div
 				class="flex items-center justify-center gap-2 rounded-lg border bg-slate-100 p-3"

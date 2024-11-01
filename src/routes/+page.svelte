@@ -8,7 +8,7 @@
 
 <div class="flex h-full flex-col gap-6 overflow-hidden p-6">
 	<h1 class="text-center text-xl font-semibold">Little library App to test Svelte 5 ❤️</h1>
-	<div class="grid h-full grid-cols-2 gap-6 pb-16">
+	<div class="grid h-full grid-cols-2 gap-6">
 		<BookList />
 
 		<div class="rounded-lg border border-slate-200 p-6">

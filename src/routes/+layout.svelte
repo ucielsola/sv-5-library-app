@@ -18,7 +18,7 @@
 		{@render children()}
 	</div>
 
-	<footer class="flex h-16 flex-col items-center justify-center gap-1 border-t p-6">
+	<footer class="h-20 border-t">
 		<Footer />
 	</footer>
 </div>
